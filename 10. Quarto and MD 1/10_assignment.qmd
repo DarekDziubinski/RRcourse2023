@@ -7,10 +7,17 @@ execute:
   echo: fenced
 ---
 
-# **I. TV Series Description**
+<div class="figure">
+  <p class="caption"></p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Friends_logo.svg" alt="" width="500">
+</div>
+
+## **I. TV Series Description**
 
 ::: {style="text-align: justify"}
 The series narrative follows six friends living and working in New York City: *Rachel Green*, *Monica Geller*, *Phoebe Buffay*, *Joey Tribbiani*, *Chandler Bing*, and *Ross Geller* played by *Jennifer Aniston*, *Courteney Cox*, *Lisa Kudrow*, *Matt LeBlanc*, *Matthew Perry*, and *David Schwimmer* respectively. All episodes were filmed at Warner Bros. Studios, Burbank. The fourth season finale, "The One with Ross's Wedding", however, was filmed on location in London in front of a British studio audience.
 :::
- sadad
+ 
+
+
  
