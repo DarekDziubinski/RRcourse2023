@@ -7,6 +7,12 @@ execute:
   echo: fenced
 ---
 
+<style>
+table {
+  font-size: 14px;
+}
+</style>
+
 <div class="figure">
   <p class="caption"></p>
   <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Friends_logo.svg" alt="" width="500">
@@ -32,5 +38,34 @@ The series narrative follows six friends living and working in New York City: *R
 | 8      | 24       | September 27, 2001 | May 16, 2002     | 1    | 15.0   | 26.4          |
 | 9      | 24       | September 26, 2002 | May 15, 2003     | 2    | 13.5   | 23.9          |
 | 10     | 18       | September 25, 2003 | May 6, 2004      | 5    | 13.6   | 24.6          |
+
+## **III. Viewership over time**
+
+```{r Viewers (mln), echo=FALSE, warning=FALSE, message=FALSE}
+library(ggplot2)
+
+tv_data <- data.frame(
+  Season = c(1:10),
+  Episodes = c(24, 24, 25, 24, 24, 25, 24, 24, 24, 18),
+  First_aired = c("September 22, 1994", "September 21, 1995", "September 19, 1996",
+                  "September 25, 1997", "September 24, 1998", "September 23, 1999",
+                  "October 12, 2000", "September 27, 2001", "September 26, 2002",
+                  "September 25, 2003"),
+  Viewers_mln = c(24.8, 31.7, 26.1, 25.0, 24.7, 22.6, 22.1, 26.4, 23.9, 24.6)
+)
+
+ggplot(tv_data, aes(x = Season, y = Viewers_mln)) +
+  geom_line(color = "blue", group = 1) + 
+  geom_point(color = "red") +
+  labs(title = "Viewership figures by season",
+       x = "Season",
+       y = "Viewers (mln)") +
+  theme_minimal() +
+  scale_x_continuous(breaks = 1:10) +
+  scale_y_continuous(breaks = seq(22, 32, by = 1), limits = c(22, 32))
+
+```
+
+
 
  
