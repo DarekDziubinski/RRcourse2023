@@ -1,27 +1,14 @@
 ---
 title: "10_assignment"
 author: "Dariusz Dziubinski"
+date: "26/08/2023"
 format: html
-editor: visual
+execute:
+  echo: fenced
 ---
 
-## Quarto
+# **I. TV Series Description**
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
+::: {style="text-align: justify"}
+The series narrative follows six friends living and working in New York City: *Rachel Green*, *Monica Geller*, *Phoebe Buffay*, *Joey Tribbiani*, *Chandler Bing*, and *Ross Geller* played by *Jennifer Aniston*, *Courteney Cox*, *Lisa Kudrow*, *Matt LeBlanc*, *Matthew Perry*, and *David Schwimmer* respectively. All episodes were filmed at Warner Bros. Studios, Burbank. The fourth season finale, "The One with Ross's Wedding", however, was filmed on location in London in front of a British studio audience.
+:::
