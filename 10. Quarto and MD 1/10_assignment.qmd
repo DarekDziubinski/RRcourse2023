@@ -88,3 +88,6 @@ ggplot(episode_data, aes(x = Episode_No, y = Viewers_mln)) +
   scale_y_continuous(breaks = seq(min(episode_data$Viewers_mln), max(episode_data$Viewers_mln), by = 1))
 ```
 
+::: {style="text-align: justify"}
+The following interesting conclusions can be drawn from the charts 1) From the 6th episode of the first season (from 18.5mn to 31.0mn), there was a rapid acceleration in the increase in the number of viewers, which lasted practically until the end of the season. 2) After the success of the first season, this peak in viewership was already reached in the second season, and from then on there was a successive decline (from 31.5mn to 22.0mn), which was only halted in the seventh season. 
+:::
