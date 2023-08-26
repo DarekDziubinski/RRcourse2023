@@ -18,6 +18,19 @@ execute:
 The series narrative follows six friends living and working in New York City: *Rachel Green*, *Monica Geller*, *Phoebe Buffay*, *Joey Tribbiani*, *Chandler Bing*, and *Ross Geller* played by *Jennifer Aniston*, *Courteney Cox*, *Lisa Kudrow*, *Matt LeBlanc*, *Matthew Perry*, and *David Schwimmer* respectively. All episodes were filmed at Warner Bros. Studios, Burbank. The fourth season finale, "The One with Ross's Wedding", however, was filmed on location in London in front of a British studio audience.
 :::
  
+## **II. Basic statistics**
 
+| Season | Episodes | First aired        | Last aired       | Rank | Rating | Viewers (mln) |
+|--------|----------|--------------------|------------------|------|--------|---------------|
+| 1      | 24       | September 22, 1994 | May 18, 1995     | 8    | 15.6   | 24.8          |
+| 2      | 24       | September 21, 1995 | May 16, 1996     | 3    | 18.7   | 31.7          |
+| 3      | 25       | September 19, 1996 | May 15, 1997     | 4    | 16.8   | 26.1          |
+| 4      | 24       | September 25, 1997 | May 7, 1998      | 4    | 16.1   | 25.0          |
+| 5      | 24       | September 24, 1998 | May 20, 1999     | 2    | 15.7   | 24.7          |
+| 6      | 25       | September 23, 1999 | May 18, 2000     | 5    | 14.0   | 22.6          |
+| 7      | 24       | October 12, 2000   | May 17, 2001     | 5    | 12.6   | 22.1          |
+| 8      | 24       | September 27, 2001 | May 16, 2002     | 1    | 15.0   | 26.4          |
+| 9      | 24       | September 26, 2002 | May 15, 2003     | 2    | 13.5   | 23.9          |
+| 10     | 18       | September 25, 2003 | May 6, 2004      | 5    | 13.6   | 24.6          |
 
  
