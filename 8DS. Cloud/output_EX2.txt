@@ -1,0 +1,19 @@
+Last login: Sun Aug 27 11:06:17 2023 from 35.235.243.65
+d_dziubinski@instance-1:~$ mkdir rr
+d_dziubinski@instance-1:~$ cd rr
+d_dziubinski@instance-1:~/rr$ tourch test.txt
+Command 'tourch' not found, did you mean:
+  command 'touch' from deb coreutils (8.32-4.1ubuntu1)
+Try: apt install <deb name>
+d_dziubinski@instance-1:~/rr$ touch test.txt
+d_dziubinski@instance-1:~/rr$ nano new.txt
+d_dziubinski@instance-1:~/rr$ ls -lS --reverse
+total 4
+-rw-rw-r-- 1 d_dziubinski d_dziubinski  0 Aug 27 11:12 test.txt
+-rw-rw-r-- 1 d_dziubinski d_dziubinski 43 Aug 27 11:13 new.txt
+d_dziubinski@instance-1:~/rr$ rmdir ../rr
+rmdir: failed to remove '../rr': Directory not empty
+d_dziubinski@instance-1:~/rr$ cd..
+cd..: command not found
+d_dziubinski@instance-1:~/rr$ rm -r rr
+rm: cannot remove 'rr': No such file or directory
