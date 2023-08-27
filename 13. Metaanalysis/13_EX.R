@@ -52,3 +52,15 @@ m.girls %>% funnel()
 # The higher heterogeneity (I^2 = 79.9%) causes them to be widely scattered, especially in the lower part of the plot. 
 # The points are stacked around values of -53.5 (for the fixed effects model / MD value) and -79.5 (for the random effects model / MD value). 
 # Overall, thedata suggest that there is a significant difference between study groups. (BOTH CHARTS / detailed description for the second chart)
+
+# III. check if methods / quality affect the results
+m.quality_boys <- m.boys %>% metareg(~ `NOS score`)
+m.quality_girls <- m.girls %>% metareg(~ `NOS score`)
+m.quality_boys
+m.quality_girls
+
+# For boys, quality (assessed by the 'NOS score') may influence the results, but this relationship is not certain (p-value).
+# The estimate for the NOS score had a p-value of 0.0548. Although this is close to the significance threshold of 0.05, 
+# it is not fully statistically significant. Therefore, the conclusion is that in boys, the quality of the examination may affect the results,
+# but this relationship is not certain.
+# For girls, there is a statistically significant positive correlation between quality (NOS score) and effect size.
