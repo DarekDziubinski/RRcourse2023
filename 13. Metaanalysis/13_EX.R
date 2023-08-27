@@ -64,3 +64,11 @@ m.quality_girls
 # it is not fully statistically significant. Therefore, the conclusion is that in boys, the quality of the examination may affect the results,
 # but this relationship is not certain.
 # For girls, there is a statistically significant positive correlation between quality (NOS score) and effect size.
+
+# IV
+m.boys %>% metareg('Dominant_Author_Gender')
+m.girls %>% metareg('Dominant_Author_Gender')
+
+# From the table reading, it can be concluded that for both genders, the gender of the dominant author significantly influences the outcome. 
+# For boys, studies with a male as the dominant author show a higher effect size than those with a female as the dominant author. 
+# In contrast, for girls, studies with a male as the dominant author show a lower effect size than those with a female as the dominant author.
